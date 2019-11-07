@@ -1,35 +1,48 @@
-/**
- * @Author: shadabKhan
- * @Date:   Thursday, November 7th 2019, 5:44:27 pm
- * @Last modified by:   shadabKhan
- * @Last modified time: Thursday, November 7th 2019, 7:33:36 pm
- */
-body{
-
+﻿.wrapper{ 
+width:600px;
+background:#eee;
+margin: 0 auto 0 auto;
 }
-
-p{
-  font-family:sans-serif;
-}
-@keyframes example{
-  from { background-color: red;}
-  to { background-color: blue;}
-}
-
-.container{
-  font-family:monospace;
-  width: 100px;
-  border: 2px solid black;
-  padding : 10px 15px 15px 20px;
-  margin: auto;
-
-  
-}
-
 .heading{
-  color: red;
+height:100px;
+background:red;
+padding:20px;
+text-align:center;
+}
+.content{
+min-height:400px;
+background:yellow;
+width :400px;
+float:right;
+text-align:center;
+}
+.sidebar{
+height:400px;
+width:200px;
+float:left;
+background:lightgreen;
+min-height:400px;
+text align:center;
+}
+.footer{
+min-height:400;
+background:pink;
 }
 
-#h1{
-  color: green;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
